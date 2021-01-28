@@ -21,7 +21,7 @@ function Home() {
           <VictoryLine
             data={data}
             style={{
-              data: {stroke: '#c43a31'},
+              data: {stroke: '#ffd400'},
               parent: {border: '1px solid #ccc'}
             }}
             animate={{

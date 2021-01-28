@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background: #230819;
+  background: #4e2f39;
 }
 
 main {
@@ -48,6 +48,20 @@ header {
 
 .nav ul li a:visited {
   color: black;
+}
+
+.date-picker {
+  display: flex;
+  flex-direction: row;
+}
+
+.date-input {
+  margin-left: 1em;
+}
+
+.date-input > label {
+  margin-left: 2em;
+  margin-right: 1em;
 }
 
 .weight-section {
