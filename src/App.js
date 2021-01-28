@@ -11,8 +11,7 @@ import './App.css';
 function App() {
   return (
     <main>
-      <Header />
-      <Navbar />
+      <Header className="site-header"/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
