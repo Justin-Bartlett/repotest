@@ -1,18 +1,45 @@
+.VictoryContainer svg g g text tspan {
+  writing-mode: vertical-rl !important;
+}
+
 body {
   width: 100%;
   background: #4e2f39;
 }
 
+.container {
+  margin-top: 10em;
+}
+
 main {
   color: whitesmoke;
+  background: #4e2f39;
+  height: 200em;
 }
 
 header {
+  position: fixed;
+  top: 0;
   font-size: 1.3em;
   padding-left: 1em;
   display: flex;
   flex-direction: row;
   background: #eee;
+  color: #666;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 1.3em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: row;
+  background: #2a1a1a;
   color: #666;
   width: 100%;
 }

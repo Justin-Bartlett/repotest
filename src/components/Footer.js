@@ -2,7 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <h1>Footer</h1>
+    <footer>
+      <div className="site-footer">
+        <p>Built with React by bigdice.net</p>
+      </div>
+    </footer>
   )
 }
 
